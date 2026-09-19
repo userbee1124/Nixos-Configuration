@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ config, pkgs,  ... }:
 {
 
   xdg.portal = {
@@ -10,14 +10,6 @@
   };
 
   programs.niri.enable = true;
-
-  programs.noctalia = {
-    enable = true;
-
-    recommendedServices.enable = true;
-
-    systemd.enable = true;
-  };
     
   environment.systemPackages = with pkgs; [
    grim
@@ -25,7 +17,9 @@
    foot
    wl-clipboard
    nwg-look
-   pywalfox-native
+   waybar
+   rofi
+   awww
    brightnessctl
    imv
   ];

@@ -11,7 +11,7 @@
 		./desktop/soft/pipewire.nix
 		./desktop/soft/nixvim.nix
 		./modules/sddm.nix
-		./desktop/wm/mango.nix
+		./desktop/wm/niri.nix
 	];
 
 	system.stateVersion = "26.05";
