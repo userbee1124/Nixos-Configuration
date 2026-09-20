@@ -25,7 +25,7 @@
    foot
    wl-clipboard
    nwg-look
-   pywalfox-native
+   qt6Packages.qt6ct
    brightnessctl
    imv
   ];

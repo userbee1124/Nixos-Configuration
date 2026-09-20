@@ -1,6 +1,11 @@
 {pkgs, ...}:
 {
 nixpkgs.config.allowUnfree = true;
+services.gvfs.enable = true;
+programs.xfconf.enable = true;
+programs.dconf.enable = true;
+programs.thunar.enable = true;
+services.tumbler.enable = true;
 environment.systemPackages = with pkgs; [
 #### Cli    
     wget
@@ -14,8 +19,7 @@ environment.systemPackages = with pkgs; [
     appimage-run
     p7zip
     dust
-    tree
-    yazi
+    tree 
     rmpc
     mpc
     mpd
@@ -23,6 +27,7 @@ environment.systemPackages = with pkgs; [
     firefox-esr    
     transmission_4-gtk
     nicotine-plus
+    telegram-desktop
 #### Mpv
     mpv
     yt-dlp
