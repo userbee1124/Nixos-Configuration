@@ -11,7 +11,7 @@ environment.systemPackages = with pkgs; [
     wget
     curl
     git
-    unrar-free
+    unrar
     unzip
     cloudflare-warp
     fastfetch
@@ -28,6 +28,7 @@ environment.systemPackages = with pkgs; [
     transmission_4-gtk
     nicotine-plus
     telegram-desktop
+    anki-bin
 #### Mpv
     mpv
     yt-dlp

@@ -25,7 +25,6 @@
    foot
    wl-clipboard
    nwg-look
-   qt6Packages.qt6ct
    brightnessctl
    imv
   ];

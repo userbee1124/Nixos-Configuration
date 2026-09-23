@@ -11,6 +11,7 @@
 		./desktop/soft/pipewire.nix
 		./desktop/soft/nixvim.nix
 		./modules/sddm.nix
+		./modules/virt.nix
 		./desktop/wm/mango.nix
 	];
 
